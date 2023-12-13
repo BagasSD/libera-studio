@@ -15,4 +15,9 @@ internal class AnimationStrings
     internal static string attackCooldown = "attackCooldown";
     internal static string battleMode = "battleMode";
     internal static string isAttacking = "isAttacking";
+    internal static string isDeSpawn = "isDeSpawn";
+    internal static string isHovered = "isHovered";
+    internal static string isSealing = "isSealing";
+    internal static string isSealed = "isSealed";
+
 }

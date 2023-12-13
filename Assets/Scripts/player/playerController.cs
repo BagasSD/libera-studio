@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -86,9 +87,9 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         touchingDirections = GetComponent<TouchingDirections>();
-        damageable = GetComponent<Damageable>();
+        damageable = GetComponent<Damageable>();        
     }
-
+    
     private void FixedUpdate()
     {
         // Update the player's velocity based on input if not hit
@@ -164,4 +165,5 @@ public class PlayerController : MonoBehaviour
             IsFacingRight = false;
         }
     }
+
 }

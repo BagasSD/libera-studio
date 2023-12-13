@@ -6,10 +6,10 @@ public class Damageable : MonoBehaviour
     public UnityEvent<int, Vector2> damagableHit; // Event invoked when object is hit
 
     // Health properties and fields
-    [SerializeField] private int _maxHealth = 100;
+    [SerializeField] public int _maxHealth = 100;
     public int MaxHealth { get { return _maxHealth; } set { _maxHealth = value; } }
 
-    private int _health = 100;
+    public int _health = 100;
     public int Health { get { return _health; } set { _health = value; if (_health <= 0) { IsAlive = false; } } }
 
     // Health status properties

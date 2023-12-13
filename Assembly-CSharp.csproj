@@ -58,31 +58,60 @@
     <Analyzer Include="D:\App\2022.3.5f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\FlyingEnemies.cs" />
+    <Compile Include="Assets\gamePaused.cs" />
+    <Compile Include="Assets\Scripts\FlyingEnemies.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\statues.cs" />
     <Compile Include="Assets\Scripts\Damageable.cs" />
-    <Compile Include="Assets\Attack.cs" />
-    <Compile Include="Assets\Scripts\Enemies\Knight.cs" />
     <Compile Include="Assets\Scripts\player\playerController.cs" />
+    <Compile Include="Assets\Scripts\Attack.cs" />
+    <Compile Include="Assets\Scripts\Enemies\wolf.cs" />
     <Compile Include="Assets\Scripts\Animation\AnimationStrings.cs" />
-    <Compile Include="Assets\projectile.cs" />
+    <Compile Include="Assets\Scripts\Enemies\skeletons.cs" />
+    <Compile Include="Assets\allStatues.cs" />
     <Compile Include="Assets\Scripts\Animation\FadeRemoveBehaviour.cs" />
     <Compile Include="Assets\Scripts\Animation\SetFloatBehaviour.cs" />
     <Compile Include="Assets\Scripts\Enemies\DetectionZone.cs" />
+    <Compile Include="Assets\statueCounter.cs" />
     <Compile Include="Assets\Scripts\Animation\SetBooleanBehaviour.cs" />
+    <Compile Include="Assets\Scripts\projectile.cs" />
+    <Compile Include="Assets\healthBar.cs" />
     <Compile Include="Assets\Scripts\TouchingDirections.cs" />
+    <Compile Include="Assets\gameStatus.cs" />
     <Compile Include="Assets\Scripts\Background\ParralaxEffect.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\Audio\Music\05 The Girl with a Holy Rapier\Assets_for_Unity\Read Me.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\Audio\Music\06 The Sword of the Silver Moon\Assets_for_Unity\Read Me.txt" />
     <None Include="Assets\Audio\Music\03 Grief of Souls\Assets_for_Unity\Read Me.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\Audio\Music\07 Vampire Prayer\Assets_for_Unity\Read Me.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\Audio\Music\02 Conflict\Assets_for_Unity\Read Me.txt" />
     <None Include="Assets\Audio\Music\09 Forbiddens Saga (SNES style)\Assets_for_Unity\Read Me.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\Audio\Music\01 Furious Battle\Assets_for_Unity\Read Me.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\Audio\Music\04 Queen of the White Dawn\Assets_for_Unity\Read Me.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\Audio\Music\08 SAMURAI BLADE\Assets_for_Unity\Read Me.txt" />
     <None Include="Assets\Audio\Music\10 Battle1 (8bit style)\Assets_for_Unity\Read Me.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

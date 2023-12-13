@@ -101,7 +101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDamage: 15
-  knockback: {x: 3, y: 1}
+  knockback: {x: 3, y: 0}
 --- !u!1 &7134692636695926126
 GameObject:
   m_ObjectHideFlags: 0
@@ -385,6 +385,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 60a52097-5e2e-4b3f-b2db-9103401f709b
     m_ActionName: Player/Attack[/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 7af4a350-c7a0-4630-8b21-8826680689bd
+    m_ActionName: Player/Seal[/Keyboard/r]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -503,5 +507,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   _maxHealth: 100
+  _health: 100
   isInvincible: 0
-  invincibilityTime: 0.5
+  invincibilityTime: 1
